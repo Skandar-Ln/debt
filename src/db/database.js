@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const {DATABASE} = require('../../config.json');
+const {database: DATABASE} = require('../../config.json');
 
 let database = DATABASE.name;
 
