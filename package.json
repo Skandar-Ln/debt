@@ -6,7 +6,7 @@
   "scripts": {
     "init": "npm i --registry=https://registry.npm.taobao.org && cd fe_source && npm i --registry=https://registry.npm.taobao.org",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "export NODE_ENV=dev && nodemon src/app.js",
+    "start": "export NODE_ENV=production && node src/app.js",
     "dev": "SET NODE_ENV=dev && node src/app.js",
     "macDev": "export NODE_ENV=dev && node --inspect src/app.js",
     "macDevMem": "export NODE_ENV=dev && node --inspect --expose-gc src/app.js",
